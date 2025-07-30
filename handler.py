@@ -6,7 +6,7 @@ import os
 
 # loading model
 path = ''
-model = pickle.load( open( path + 'models/model_linear_regression.pkl', 'rb') )
+model = pickle.load( open( path + 'models/model_xgboost.pkl', 'rb') )
 
 # Initialize API
 app = Flask( __name__ )
